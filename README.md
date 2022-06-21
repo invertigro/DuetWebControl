@@ -10,19 +10,19 @@ Duet Web Control is free software; it is licensed under the terms of the GNU Pub
 
 At this time the following platforms are officially supported:
 
-* Duet 2 Maestro
-* Duet 2 WiFi
-* Duet 2 Ethernet
-* Duet 3 MB 6HC
-* Duet 3 Mini 5+ Ethernet
-* Duet 3 Mini 5+ WiFi
+- Duet 2 Maestro
+- Duet 2 WiFi
+- Duet 2 Ethernet
+- Duet 3 MB 6HC
+- Duet 3 Mini 5+ Ethernet
+- Duet 3 Mini 5+ WiFi
 
 ## Build variants
 
 There are two build variants available:
 
-* DuetWebControl-SD for Duet Maestro, Duet 2 series, and Duet 3 series in standalone mode
-* DuetWebControl-SBC for Duet 3 series in SBC mode
+- DuetWebControl-SD for Duet Maestro, Duet 2 series, and Duet 3 series in standalone mode
+- DuetWebControl-SBC for Duet 3 series in SBC mode
 
 ## Project setup
 
@@ -43,4 +43,13 @@ However, this is a potential security issue because it permits cross-origin requ
 
 ```
 npm run build
+```
+
+M1 Mac build:
+
+```
+nvm use v16
+yarn install
+yarn add core-js
+yarn run build
 ```
